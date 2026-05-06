@@ -63,3 +63,6 @@ jobs:
             echo "- results.json not found" >> "$GITHUB_STEP_SUMMARY"
             exit 1
           fi
+git add .
+git commit -m "remove broken promptfoo evaluation"
+git push
